@@ -1,0 +1,26 @@
+{
+  "name": "2023-budget-tracker",
+  "version": "1.0.0",
+  "description": "2023 expense tracking app to help reach your budget goals",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js -watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiremorlans/2023-budget-tracker.git"
+  },
+  "author": "Yire Morlans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yiremorlans/2023-budget-tracker/issues"
+  },
+  "homepage": "https://github.com/yiremorlans/2023-budget-tracker#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  }
+}
